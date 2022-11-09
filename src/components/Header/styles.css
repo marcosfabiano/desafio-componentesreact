@@ -1,0 +1,18 @@
+header {
+  padding-top: 20px;
+  background-color: var(--ct-color-bg-secondary);
+  height: 70px;
+  display: flex;
+  text-align: center;
+}
+
+header h1 {
+  color: var(--ct-color-font-primary);
+  font-size: 20px;
+}
+
+@media (min-width: 1200px) {
+  header h1 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,33 @@
+footer {
+  padding-top: 34px;
+  background-color: var(--ct-color-bg-secondary);
+  height: 120px;
+}
+
+.dcr-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dcr-margin {
+  margin-bottom: 10px;
+}
+
+.dcr-card-container p {
+  color: var(--ct-color-font-primary);
+  font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  footer {
+    padding-top: 49px;
+  }
+  .dcr-card-container {
+    max-width: 960px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
